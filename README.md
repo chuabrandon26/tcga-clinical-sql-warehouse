@@ -6,13 +6,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data: TCGA via GDC](https://img.shields.io/badge/Data-TCGA%20GDC%20API-red)](https://portal.gdc.cancer.gov/)
 
-> A fully self-contained, beginner-friendly SQL project that downloads real cancer patient data from the **NIH Genomic Data Commons (GDC)**, builds a relational SQLite warehouse, and runs 9 meaningful SQL analyses — complete with survival plots and a Kaplan-Meier curve.
+> A fully self-contained, beginner-friendly SQL project that downloads real cancer patient data from the **NIH Genomic Data Commons (GDC)**, builds a relational SQLite warehouse, and runs 9 meaningful SQL analyses. Complete with survival plots and a Kaplan-Meier curve.
 
 ---
 
 ## 📖 What This Project Is
 
-This project builds a **miniature clinical data warehouse** using publicly available data from [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/tcga) program. It is written as an **educational report** inside a Jupyter Notebook — meaning every SQL concept is explained in plain English alongside the code. A person who has never seen SQL before can open this notebook, read it from top to bottom, and understand exactly what is happening and why.
+This project builds a **miniature clinical data warehouse** using publicly available data from [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/tcga) program.
 
 The project covers 5 TCGA cancer types:
 
