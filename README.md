@@ -37,7 +37,7 @@ The project covers 5 TCGA cancer types:
 | `GROUP BY` + `ORDER BY` | All aggregation queries |
 | `COUNT`, `AVG`, `MIN`, `MAX`, `SUM` | Demographic, survival, and mutation queries |
 | `CASE WHEN ... THEN ... ELSE ... END` | Stage normalisation, smoking status labels |
-| `COALESCE(a, b)` | Survival duration — prefer death date, fall back to last follow-up |
+| `COALESCE(a, b)` | Survival duration: prefer death date, fall back to last follow-up |
 | Common Table Expressions (`WITH ... AS`) | Multi-step survival and mutation burden queries |
 | `ROW_NUMBER() OVER (PARTITION BY ...)` | Top-5 diagnosis patterns per cancer type |
 | Subqueries | Above-average age at diagnosis filter |
