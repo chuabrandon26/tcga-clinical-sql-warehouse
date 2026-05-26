@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data: TCGA via GDC](https://img.shields.io/badge/Data-TCGA%20GDC%20API-red)](https://portal.gdc.cancer.gov/)
 
-> A fully self-contained, beginner-friendly SQL project that downloads real cancer patient data from the **NIH Genomic Data Commons (GDC)**, builds a relational SQLite warehouse, and runs 9 meaningful SQL analyses. Complete with survival plots and a Kaplan-Meier curve.
+> A self-contained, SQL project that downloads real cancer patient data from the **NIH Genomic Data Commons (GDC)**, builds a relational SQLite warehouse, and runs 9 SQL analyses. Complete with survival plots and a Kaplan-Meier curve.
 
 ---
 
